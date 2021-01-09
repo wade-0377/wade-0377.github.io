@@ -1,0 +1,1085 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?vnz6cx');
+    src: url('../fonts/icomoon.eot?vnz6cx#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?vnz6cx') format('truetype'),
+        url('fonts/icomoon.woff?vnz6cx') format('woff'),
+        url('fonts/icomoon.svg?vnz6cx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    position: relative;
+    /* width: 1263.33px; */
+    height: 100%;
+    /* background-color: rgb(246, 250, 196); */
+}
+
+/* 登录页面 */
+.login {
+    display: none;
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    top: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.login-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    color: black;
+}
+
+.login-title .close {
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.login p {
+    color: #aaa;
+    font-size: 14px;
+    margin: 0 55px;
+    padding-top: 30px;
+}
+
+.login .login-input-content {
+    margin: 50px;
+}
+
+.login .login-input-content input {
+    border: 0;
+}
+
+.login-input .list-input {
+    width: 150px;
+    height: 42px;
+    padding-left: 10px;
+    border: #ebebeb 1px solid;
+}
+
+.login-input {
+    width: 255px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.login-input a {
+    color: black;
+}
+
+.login-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(253, 4, 4);
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+    margin: 24px auto;
+}
+
+.login-button a {
+    color: white;
+}
+
+.login .http {
+    margin: 0 50px;
+}
+
+.login .http a {
+    color: red;
+}
+
+.login .loginin {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.login .loginin a {
+    color: red;
+    font-size: 16px;
+}
+
+/* 注册页面 */
+.register {
+    display: none;
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    top: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.register-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    color: black;
+}
+
+.register-title .closes {
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.register p {
+    color: #aaa;
+    font-size: 14px;
+    margin: 0 55px;
+    padding-top: 30px;
+}
+
+.register .register-input-content {
+    margin: 50px;
+}
+
+.register .register-input-content input {
+    border: 0;
+}
+
+.register-input .list-input {
+    width: 150px;
+    height: 42px;
+    padding-left: 10px;
+    border: #ebebeb 1px solid;
+}
+
+.register-input {
+    width: 255px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.register-input a {
+
+    color: black;
+}
+
+.register-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(253, 4, 4);
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+    margin: 24px auto;
+}
+
+.register-button a {
+    color: white;
+}
+
+.register_http {
+    margin: 0 50px;
+}
+
+.register_http a {
+    color: red;
+}
+
+
+/* 大头部区域header */
+/* .wrapper区域 */
+/* logo区域  */
+.header {
+    position: relative;
+    width: 1263.33px;
+    height: 640px;
+    background: url(../images/bg-1.jpg) no-repeat fixed;
+}
+
+.wrapper {
+    position: absolute;
+    top: 30px;
+    left: 58px;
+    width: 1150px;
+    height: 422px;
+    /* background-color: rgb(245, 237, 237); */
+}
+
+/* 版心右边固定部分 */
+.fixright {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1002;
+}
+
+.fixright .font {
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+.fixright .icon1 {
+    content: '/e9da';
+    font-size: 20px;
+    font-family: 'icomoon';
+}
+
+.fixright .icon2 {
+    content: '/e903';
+    font-size: 20px;
+    font-family: 'icomoon';
+}
+
+.fixright .icon3 {
+    content: '/e903';
+    font-size: 20px;
+    font-family: 'icomoon';
+}
+
+.fixright .icon4 {
+    content: '/ea72';
+    font-size: 20px;
+    font-family: 'icomoon';
+}
+
+.fixright table ul li a {
+    margin: 8px;
+    color: black;
+    line-height: 38px;
+}
+
+.fixright table ul li {
+    width: 38px;
+    height: 38px;
+    margin: 10px 0 10px 0;
+}
+
+.fixright .goBack {
+    content: '/ea03';
+    font-size: 20px;
+    font-family: 'icomoon';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    display: none;
+    cursor: pointer;
+}
+
+.btm-right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    padding-left: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    z-index: 999;
+    color: black;
+    font-size: 14px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btm-right span {
+    left: 5px;
+    content: '/e96d';
+    font-family: 'icomoon';
+}
+
+.logoer {
+
+    width: 1150px;
+    height: 61px;
+    /* background-color: pink; */
+}
+
+.header .jionin {
+    position: relative;
+    float: right;
+    width: 128px;
+    height: 30px;
+    /* background-color: pink; */
+    margin-right: 50px;
+    margin-top: 49px;
+    line-height: 30px;
+    z-index: 33;
+}
+
+.header .jionin i {
+    float: left;
+    margin-left: 10px;
+    content: '\e902';
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: white;
+}
+
+.header .jionin .jion a {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.logoer .logo {
+    position: absolute;
+    width: 137px;
+    height: 61px;
+    /* background-color: #fff; */
+}
+
+.logoer .logo a {
+    position: absolute;
+    width: 121px;
+    height: 82px;
+    background: url(../images/logo1-removebg-preview.png);
+}
+
+.logoer span {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 145px;
+    top: 20px;
+    background: rgb(0, 0, 0, .3);
+    border-radius: 15px;
+    text-align: center;
+    content: '\e948';
+    font-family: 'icomoon';
+    font-size: 10px;
+    color: white;
+    line-height: 30px;
+}
+
+.logoer span a {
+    color: white;
+    font-size: 14px;
+}
+
+.logoer .clear {
+    float: right;
+    width: 888px;
+    height: 100%;
+}
+
+.logoer .clear li {
+    position: relative;
+    float: left;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.logoer .clear li a {
+    color: white;
+}
+
+.logoer .clear ul {
+    display: none;
+    top: 26px;
+    left: 0;
+    z-index: 1;
+    min-width: 10px;
+    padding-bottom: 6px;
+}
+
+.logoer .clear ul li {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    font-size: 16px;
+}
+
+/* logo区域结束 */
+/* header_wrap区域 */
+.wrapper .header_wrap {
+    position: relative;
+    width: 1150px;
+    height: 241px;
+    margin: 200px auto;
+    /* background-color: rgb(200, 180, 255); */
+}
+
+.wrapper .header_word {
+    /* position: absolute; */
+    width: 540px;
+    height: 69px;
+    margin: 200px auto;
+    /* background-color: #fff; */
+    background: url(../images/word.png);
+}
+
+.wrapper .header_words {
+    position: absolute;
+    top: 69px;
+    width: 1150px;
+    height: 35px;
+    /* background-color: rgb(236, 148, 148); */
+}
+
+.wrapper .header_input .input_s li {
+    float: left;
+    width: 62px;
+    height: 32px;
+    margin-right: 20px;
+    left: 0;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header_input .input_s li {
+    color: white;
+}
+
+.wrapper .header_input {
+    position: absolute;
+    float: left;
+    left: 169px;
+    top: 103px;
+    width: 812px;
+    height: 138px;
+    /* background-color: rgb(236, 65, 65);    */
+}
+
+.wrapper .search input {
+    float: left;
+    margin-top: 10px;
+    width: 646px;
+    height: 55px;
+    padding-left: 20px;
+}
+
+.search button {
+    float: left;
+    margin-top: 10px;
+    width: 127px;
+    height: 55px;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+}
+
+.search .triangle {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+}
+
+.header .bottom_w li {
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 590px;
+    margin: 20px;
+}
+
+.header .bottom_w li::before {
+    content: '\e92e';
+    font-family: 'icomoon';
+    color: white;
+}
+
+.header .bottom_w li a {
+    color: white;
+}
+
+/* header结束 */
+/* nav部分开始   */
+.nav {
+    position: relative;
+    width: 1263px;
+    height: 524px;
+    background: url(../images/bg-2.jpg);
+    margin: auto;
+}
+
+.main {
+    width: 1263px;
+    height: 524px;
+}
+
+/* .nav .nav_words{      
+    width: 479px;
+    height: 522px;
+    margin-left: auto;   
+}
+.nav_words #p1{
+    font-size: 40px;
+    font-weight: 50;
+    color: black;
+}
+.nav_words #p2{
+    margin-top: -20px;
+    top: 80px;
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+}
+.nav_words .words_2{
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+.nav_words .words_3{
+    width: 150px;
+    height: 150px;
+    background: url(../images/Snipaste_2020-12-30_15-12-09.png);
+    margin: 20px auto;
+} */
+/* 轮播区域 */
+.focus {
+    position: relative;
+    width: 904px;
+    /* border: 1px solid black; */
+    height: 448px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.focus .content {
+    position: absolute;
+    width: 904px;
+    height: 448px;
+}
+
+.focus .content img {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 23px;
+    border-radius: 8px;
+}
+
+.focus .focus_f {
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.focus .arrow-r {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border-radius: 15px 0 0 15px;
+}
+
+.arrow-l {
+    border-radius: 0 15px 15px 0;
+    top: 50%;
+}
+
+.content {
+    display: flex;
+    width: 1000px;
+    height: 448px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* nav结束 */
+/* house部分 */
+.house {
+    position: relative;
+    width: 1150px;
+    height: 528px;
+    /* background-color: pink; */
+    margin: auto;
+}
+
+.house .fl ul li {
+    float: left;
+    cursor: pointer;
+    /* margin-right: 30px; */
+}
+
+/* .clear{
+    clear: both;
+} */
+.house .fl img {
+    /* display: flex; */
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+
+.house .fl img:hover {
+    transform: scale(1.1);
+}
+
+.house .fl .ershoufang {
+    display: flex;
+    width: 1150px;
+    height: 528px;
+    background-color: #fff;
+    margin: 60px auto;
+}
+
+.fl li .bottom p.position {
+    font-family: HiraginoSansGB-W6;
+    font-size: 18px;
+    color: #101D37;
+    letter-spacing: 0;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.fl li .tips {
+    margin-top: 11px;
+    position: relative;
+}
+
+.fl li .tips .price {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    font-family: HiraginoSansGB-W6;
+    font-size: 16px;
+    color: #924034;
+    letter-spacing: 0;
+}
+
+.fl li .tips .rule {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+}
+
+.house .fls {
+    position: relative;
+    width: 1150px;
+    height: 57px;
+    /* background-color: #fff; */
+    margin: 20px auto;
+}
+
+.house .fls .h_words .h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.house .fls .h_words .h2 {
+    position: absolute;
+    left: 90px;
+    top: 0;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+
+.house .fls a {
+    float: right;
+    right: 30px;
+
+    color: black;
+}
+
+/* house区域结束 */
+/* <!-- 小区区域开始 --> */
+.house_1 {
+    position: relative;
+    width: 1150px;
+    height: 375px;
+    background-color: rgb(234, 242, 245);
+    padding: 0 0 50px 0;
+    margin: 60px auto;
+}
+
+.house_1 .fls_1 {
+    position: relative;
+    width: 1150px;
+    height: 57px;
+    /* background-color: #fff; */
+    margin: 10px auto;
+}
+
+/* .house .fls_1 .h_words1{
+    position: absolute;
+} */
+.house_1 .fls_1 .h_words1 .h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.house_1 .fls_1 .h_words1 .h5 {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+
+.house_1 .fls_1 a {
+
+    float: right;
+    margin-right: 30px;
+    color: black;
+}
+
+.house_1 .clear {
+    display: flex;
+    width: 1150px;
+    height: 375px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clear .title .house_name {
+    color: #394043;
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.clear div img {
+    width: 232px;
+    border-radius: 10px;
+    transition: all .4s;
+    overflow: hidden;
+}
+
+.clear div img:hover {
+    transform: scale(1.1);
+}
+
+.clear .title .house_content {
+    color: #394043;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.clear .title .house_content .house_year {
+    float: right;
+    color: #888c8e;
+    font-size: 12px;
+}
+
+/* 小区部分结束 */
+/* 海外部分开始 */
+.overseas {
+    position: relative;
+    width: 1150px;
+    height: 530px;
+    background-color: #fff;
+    margin: 60px auto;
+}
+
+.overseas .seas_main div img {
+    width: 265px;
+    height: 205px;
+    margin-right: 10px;
+    transition: all .4s;
+    border-radius: 10px;
+}
+
+.overseas .seas_main div img:hover {
+    transform: scale(1.1);
+}
+
+.overseas .seas_main {
+    display: flex;
+    width: 1150px;
+    height: 320px;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.overseas .overseas_1 {
+    position: relative;
+    width: 1150px;
+    height: 57px;
+    /* background-color: pink; */
+    margin: 20px auto;
+}
+
+.overseas .overseas_fl .h7 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.overseas .overseas_fl .h8 {
+    position: absolute;
+    left: 90px;
+    top: 0;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+
+.overseas a {
+    /* position: absolute;  */
+    float: right;
+    margin-right: 20px;
+    color: black;
+}
+
+.seas_main .img .dollar {
+    position: absolute;
+    top: 255px;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+}
+
+.seas_main .img .rmb {
+    position: absolute;
+    top: 275px;
+    color: #F9BD67;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.seas_main .img .bottom .country {
+    font-size: 12px;
+    line-height: 12px;
+    color: #767676;
+
+    text-overflow: ellipsis;
+}
+
+.seas_main .img .bottom p.p01 {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #222222;
+    line-height: 1.2;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.seas_main .img .bottom div.tips .tips-info {
+    float: left;
+    color: #222222;
+    font-size: 12px;
+    max-width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 底部房屋查询部分start */
+.bottom_bg {
+    position: relative;
+    width: 1263px;
+    height: 248px;
+    background: url(../images/bottom.png);
+}
+
+.bottom_bg .btm_left {
+    position: absolute;
+    width: 505px;
+    height: 115px;
+    left: 60px;
+    top: 60px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+
+.bottom_bg .btm_right {
+    position: absolute;
+    width: 505px;
+    height: 115px;
+    right: 60px;
+    top: 68px;
+}
+
+.bottom_bg .btm_left .word2 {
+    font-weight: 100;
+}
+
+.bottom_bg .btm_right .word3 {
+    font-size: 16px;
+    color: white;
+}
+
+.bottom_bg .btm_right .right_put {
+    position: relative;
+    width: 495px;
+    height: 50px;
+}
+
+.bottom_bg .btm_right input {
+    width: 495px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.btm_right .right_put .search {
+    position: absolute;
+    top: 38px;
+    right: 22px;
+    width: 20px;
+    height: 20px;
+    content: '/e987';
+    font-family: 'icomoon';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 最后底部背景开始 */
+.footer {
+    width: 100%;
+    height: 426px;
+    background-color: #fff;
+    background: url(../images/footer-bg.jpg);
+}
+
+.footer .clear {
+    clear: both;
+}
+
+.footer .f_title {
+    width: 100%;
+    height: 76px;
+    border-bottom: 1px solid black;
+}
+
+.footer .f_title ul {
+    margin-left: 60px;
+}
+
+.footer .f_title ul li a {
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+}
+
+.footer .f_title ul li {
+    float: left;
+    margin-left: 10px;
+    height: 76px;
+    line-height: 76px;
+}
+
+.f_house {
+    padding: 13px 0 20px 0;
+    border-bottom: 1px solid #393939;
+}
+
+.f_house .house {
+    width: 100%;
+    height: 40px;
+    /* background-color: #fff; */
+}
+
+.f_house .house span {
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    font-size: 14px;
+    color: rgb(235, 235, 235);
+    padding: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* .f_house .link-list {
+    clear: both;
+} */
+.f_house .link-list dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.f_house .link-list dd a {
+    margin-right: 5px;
+    color: #888c8e;
+}
+
+.f_house .link-list {
+    width: 1000px;
+    min-width: 90px;
+    margin-left: 30px;
+}
+
+.f_house .link-list div {
+    min-height: 89px
+}
+
+.footer .f_bei {
+    padding-top: 20px;
+    margin-inline-start: 70px;
+    color: #888c8e;
+}

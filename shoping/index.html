@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幸福之家地产-阳光服务,中正卖房!
+    </title>
+    <style>
+        /* 声明字体图标 这里一定要注意路径的变化 */
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?vnz6cx');
+            src: url('fonts/icomoon.eot?vnz6cx#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?vnz6cx') format('truetype'),
+                url('fonts/icomoon.woff?vnz6cx') format('woff'),
+                url('fonts/icomoon.svg?vnz6cx#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+    </style>
+    <!-- 网站说明 -->
+    <meta name="description" content="幸福之家地产，自2014年成立以来，一直以“阳光服务”
+    作为品牌的文化基石，坚持捍卫品牌中正卖房的核心价值观，用中立正道，对买卖双方不偏不倚，
+    对业务不夸张，不减缩，用有一是一，有二是二的底层逻辑做为生意态度，
+    我们用“阳光服务 中正卖房”作为自己的立场宣言;为您提供买房卖房就是要幸福的网上看房体验!" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="为员工提供优越的办公环境及丰厚的薪资待遇，
+    为客户提供销售、设计独特优势的服务链。/">
+    <!--引入facicon图标-->
+    <link rel="shortcut icon" href=" favicon.ico" />
+    <!--引入初始化样式文件-->
+    <link rel="stylesheet" href="css/base.css">
+    <!--引入我们公共样式文件-->
+    <link rel="stylesheet" href="css/common.css">
+    <!--引入我们index样式文件-->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 引入动画文件 -->
+    <script src="js/animate.js"></script>
+    <!-- 引入我们的header js文件 -->
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- 右侧固定导航栏 -->
+        <div class="fixright">
+            <table>
+                <tr>
+                    <td>
+                        <ul class="font">
+                            <li class="icon1"><a title="我关注的房源" href=""></a></li>
+                            <li class="icon2"><a title="房源对比" href=""></a></li>
+                            <li class="icon3"><a title="在线卖房" href=""></a></li>
+                            <li class="icon4"><a title="意见反馈" href=""></a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <div>
+                    <span class="goBack"></span>
+                </div>
+
+            </table>
+
+        </div>
+        <!-- 注册部分 -->
+        <div class="jionin">
+            <i></i>
+            <div class="jion">
+                <a target="_self" href="javascript:;" class="jion1">登录</a>
+                <a href="javascript:;" target="_self" class="jion2">立即注册</a>
+            </div>
+        </div>
+        <!-- 登录页面   -->
+        <div class="login">
+            <div class="login-title">手机快捷登录
+                <span class="close">×</span>
+            </div>
+            <p>无账号自动注册不会导致手机号被泄露</p>
+            <div class="login-input-content">
+                <div class="login-input">
+                    <input type="text" placeholder="请输入手机号" name="info[userphone]" id="userphone" class="list-input">
+                </div>
+                <div class="login-input">
+                    <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="list-input">
+                    <a><em>│&nbsp&nbsp&nbsp获取验证码</em></a>
+                </div>
+            </div>
+            <div id="loginBtn" class="login-button"><a href="javascript:void(0);" id="login-button-submit">登录</a></div>
+            <div class="loginin">
+                <a href="" target="_self">账号密码登录</a>
+            </div>
+            <div class="http">
+                登录即代表同意<a href="javascript:;">《幸福之家隐私政策》及《幸福之家用户使用协议》</a></div>
+        </div>
+        <!-- 注册页面   -->
+        <div class="register">
+            <div class="register-title">手机号码注册
+                <span class="closes">×</span>
+            </div>
+            <p>已有账号?<a href="javascript:;" class="goLogin">去登录</a></p>
+            <div class="register-input-content">
+                <div class="register-input">
+                    <input type="text" placeholder="请输入手机号" name="info[userphone]" id="userphone" class="list-input">
+                </div>
+                <div class="register-input">
+                    <input type="password" placeholder="请输入短信验证码" name="info[password]" id="password"
+                        class="list-input">
+                    <a><em>│&nbsp&nbsp&nbsp获取验证码</em></a>
+                </div>
+            </div>
+            <div id="loginBtn" class="register-button"><a href="javascript:void(0);" id="register-button-submit">注册</a>
+            </div>
+
+            <div class="register_http">
+                登录即代表同意<a href="javascript:;">《幸福之家隐私政策》及《幸福之家用户使用协议》</a></div>
+        </div>
+        <!-- 右下角固定版心 -->
+        <div class="btm-right"><span></span>
+            <a href="" target="_self">点我咨询</a>
+        </div>
+
+        <div class="wrapper">
+            <!-- logo区域部分 -->
+            <div class="logoer">
+                <div class="logo">
+                    <h1> <a href="index.html" title="幸福之家官网"></a></h1>
+                </div>
+                <span><a href="">珠海</a></span>
+
+                <ul class="clear">
+                    <li><a href="javascript:;">二手房</a></li>
+                    <li><a href="javascript:;">新房</a></li>
+                    <li><a href="javascript:;">租房</a></li>
+                    <li><a href="javascript:;">海外</a></li>
+                    <!-- <li><a href="javascripy:;">商业办公</a></li> -->
+                    <li><a href="javascript:;">小区</a></li>
+                    <li><a href="javascript:;">经纪人</a></li>
+                    <li class="lis">
+                        <a href="javascript:;">指南</a>
+                        <ul>
+                            <li><a href="" target="_self">知识</a></li>
+                            <li><a href="" target="_self">问答</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">房价</a></li>
+                    <!-- <li><a href="javascripy:;">工具</a></li> -->
+                    <li><a href="javascripy:;">发布房源</a></li>
+                </ul>
+
+            </div>
+            <div class="header_wrap">
+                <div class="header_word"></div>
+                <div class="header_words"></div>
+                <div class="header_input">
+                    <ul class="input_s">
+                        <li><em>找二手房</em></li>
+                        <li><em>找新房</em></li>
+                        <li><em>找租房</em></li>
+                        <li><em>找小区</em></li>
+                    </ul>
+                    <div class="search">
+                        <i class="triangle"></i>
+                        <input type="text" name="" id="" placeholder="请输入区域.商圈或小区名称开始找房">
+                        <button>搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_w">
+            <ul>
+                <li><a href="">关于仿冒我公司进行不正当竞争行为的郑重声明</a></li>
+                <li><a href="">房地产中介诚信服务承诺以及保证书</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- nav部分 -->
+    <div class="nav">
+       
+        <!-- 轮播区域 -->
+        <div class="main">
+            <div class="focus">
+                <!-- 左侧按钮 -->
+                <a href="javascript:;" class="arrow-l"> &lt; </a>
+                <!-- 右侧按钮  -->
+                <a href="javascript:;" class="arrow-r"> &gt;</a>
+                <!-- 核心的滚动区域 -->
+                <div class="focus_f">热门楼盘&gt;</div>
+                <div class="content">
+                    <div><a href=""><img src="./images/lb-1.jpg" alt=""></a></div>
+                    <div><a href=""><img src="./images/lb-2.jpg" alt=""></a></div>
+                    <div><a href=""><img src="./images/lb-3.jpg" alt=""></a></div>
+                    <div><a href=""><img src="./images/lb-4.jpg" alt=""></a></div>
+                    <div><a href=""><img src="./images/lb-5.jpg" alt=""></a></div>
+                    <div><a href=""><img src="./images/lb-6.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- house区域 -->
+        <div class="house">
+            <div class="fls">
+                <div class="h_words">
+                    <p class="h1">二手好房</p>
+                    <p class="h2">为你而选</p>
+                </div>
+                <p class="h3">好房源那么多,我们为你精选阳光和幸福
+                    <a href="">更多珠海二手房</a>
+                </p>
+            </div>
+            <div class="fl">
+                <ul class="ershoufang">
+                    <li>
+                        <a href=""><img src="./images/fz1.jpg.280x210.jpg" alt="">
+                            <div class="bottom">
+                                <p class="position">香洲区.唐家湾镇</p>
+                                <p class="position">华发蔚蓝堡</p>
+                                <p class="tips">
+                                    <span class="rule">4室2厅.133.53平米</span>
+                                    <span class="price">340万</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/fz2.jpg.280x210.jpg" alt="">
+                            <div class="bottom">
+                                <p class="position">香洲区.南屏镇</p>
+                                <p class="position">珠江南湾</p>
+                                <p class="tips">
+                                    <span class="rule">3室2厅.73.63平米</span>
+                                    <span class="price">164万</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/fz3.jpg.280x210.jpg" alt="">
+                            <div class="bottom">
+                                <p class="position">香洲区.南湾镇</p>
+                                <p class="position">华发世纪城二期</p>
+                                <p class="tips">
+                                    <span class="rule">4室2厅.163.53平米</span>
+                                    <span class="price">503万</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href=""><img src="./images/fz4.jpg.280x210.jpg" alt="">
+                            <div class="bottom">
+                                <p class="position">香洲区.新香洲</p>
+                                <p class="position">仁恒星园</p>
+                                <p class="tips">
+                                    <span class="rule">4室2厅.168.24平米</span>
+                                    <span class="price">540万</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clear"></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /* house区域结束 */ -->
+        <!-- 小区区域开始 -->
+        <div class="house_1">
+            <div class="fls_1">
+                <div class="h_words1">
+                    <p class="h4">小区</p>
+                    <p class="h5">为你推荐</p>
+                </div>
+                <p class="h6">纵览小区 ,恋上这座城
+                    <a href="">更多珠海小区</a>
+                </p>
+            </div>
+            <div class="clear">
+                <div>
+                    <a href=""><img src="./images/xq1.jpg" alt=""></a>
+                    <div class="title">
+                        <div class="house_name">
+                            华发城建未来荟
+                        </div>
+                        <div class="house_content">
+                            <span>
+                                <label>26474</label>元/平
+                            </span>
+                            <span class="house_year">2010年建</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href=""><img src="./images/xq2.jpg" alt=""></a>
+                    <div class="title">
+                        <div class="house_name">
+                            格力香樟
+                        </div>
+                        <div class="house_content">
+                            <span>
+                                <label>32474</label>元/平
+                            </span>
+                            <span class="house_year">2013年建</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href=""><img src="./images/xq3.jpg" alt=""></a>
+                    <div class="title">
+                        <div class="title">
+                            <div class="house_name">
+                                世荣作品壹号
+                            </div>
+                            <div class="house_content">
+                                <span>
+                                    <label>16474</label>元/平
+                                </span>
+                                <span class="house_year">2015年建</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 小区部分结束 -->
+        <!-- 海外部分开始 -->
+        <div class="overseas">
+            <div class="overseas_1">
+                <div class="overseas_fl">
+                    <p class="h7">海外地产</p>
+                    <p class="h8">做全球房东</p>
+                </div>
+                <p class="h9">海量全球好房,畅享美好生活
+                    <a href="">更多海外房源</a>
+                </p>
+            </div>
+            <div class="seas_main">
+                <div class="img">
+                    <a href=""><img src="./images/hw1.jpeg.353x353.png" alt="">
+                        <p class="dollar">约25到28万美元</p>
+                        <p class="rmb">约163到183万元</p>
+                    </a>
+                    <div class="bottom">
+                        <p class="country">美国.达拉斯</p>
+                        <p class="p01">美国-达拉斯-学府别墅</p>
+                    </div>
+                    <div class="tips">
+                        <div class="tips-info">3室/4室 192-213m²</div>
+                    </div>
+                </div>
+                <div class="img">
+                    <a href=""><img src="./images/hw2.jpeg.353x353.png" alt="">
+                        <p class="dollar">约27到44万英镑</p>
+                        <p class="rmb">约238到388万元</p>
+                    </a>
+                    <div class="bottom">
+                        <p class="country">美国.曼切斯特</p>
+                        <p class="p01">凡雅都市</p>
+                    </div>
+                    <div class="tips">
+                        <div class="tips-info">1室/2室 51-76m²</div>
+                    </div>
+                </div>
+                <div class="img">
+                    <a href=""><img src="./images/hw3a366.png.353x353.jpg" alt="">
+                        <p class="dollar">约575到708万泰铢</p>
+                        <p class="rmb">约125到154万元</p>
+                    </a>
+                    <div class="bottom">
+                        <p class="country">泰国.普吉岛</p>
+                        <p class="p01">普吉岛 Oceana Surin Condominium 高级别墅、公寓一体住宅</p>
+                    </div>
+                    <div class="tips">
+                        <div class="tips-info">1-3室 45-225m²</div>
+                    </div>
+                </div>
+                <div class="img">
+                    <a href=""><img src="./images/hw4.png" alt="">
+                        <p class="dollar">约37到58万美元</p>
+                        <p class="rmb">约242到379万元</p>
+                    </a>
+                    <div class="bottom">
+                        <p class="country">美国.奇诺岗</p>
+                        <p class="p01">洛杉矶 东谷Prado</p>
+                    </div>
+                    <div class="tips">
+                        <div class="tips-info">2-4室 100-300m²</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部房屋查询部分 -->
+        <div class="bottom_bg">
+            <div class="btm_left">
+                <p>
+                    幸福之家地产真实房源
+                </p>
+                <p class="word2">
+                    不是随便说说就可以
+                </p>
+            </div>
+            <div class="btm_right">
+                <p class="word3">
+                    真实存在，真实在售，真实价格，真实图片！<br>
+                    郑重向用户承诺：真实房源，假一赔百元!
+                </p>
+                <div class="right_put">
+                    <input type="text" name="" id="search" placeholder="请输入房屋编号进行房屋真伪查询...">
+                    <span class="search"></span>
+                </div>
+            </div>
+        </div>
+        <!-- 底部房屋查询部分end -->
+        <!-- 最后底部房屋部分strat -->
+        <div class="footer">
+            <div class="f_title">
+                <ul>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">加入我们</a></li>
+                    <li><a href="">隐私声明</a></li>
+                    <li><a href="">网站地图</a></li>
+                    <li><a href="">友情链接</a></li>
+                    <li class="clear"></li>
+                </ul>
+            </div>
+            <div class="f_house">
+                <div class="house">
+                    <span>二手房</span>
+                    <span>热门小区</span>
+                    <span>新房</span>
+                    <span>合作与友情链接</span>
+                </div>
+                <div class="link-list">
+                    <div style="display: block;">
+                        <dd>
+                            <a target="_blank" href="">济南二手房</a>
+                            <a target="_blank" href="">大连二手房</a>
+                            <a target="_blank" href="">湖州二手房</a>
+                            <a target="_blank" href="">赣州二手房</a>
+                            <a target="_blank" href="">昆明二手房</a>
+                            <a target="_blank" href="">驻马店二手房</a>
+                            <a target="_blank" href="">西安二手房</a>
+                            <a target="_blank" href="">淄博二手房</a>
+                            <a target="_blank" href="">惠州二手房</a>
+                            <a target="_blank" href="">广州二手房</a>
+                            <a target="_blank" href="">东莞二手房</a>
+                            <a target="_blank" href="">中山二手房</a>
+                            <a target="_blank" href="">常州二手房</a>
+                            <a target="_blank" href="">佛山二手房</a>
+                            <a target="_blank" href="">昆山二手房</a>
+                            <a target="_blank" href="">唐山二手房</a>
+                            <a target="_blank" href="">咸阳二手房</a>
+                            <a target="_blank" href="">马鞍山二手房</a>
+                            <a target="_blank" href="">深圳二手房</a>
+                            <a target="_blank" href="">防城港二手房</a>
+                            <a target="_blank" href="">成都二手房</a>
+                            <a target="_blank" href="">桂林二手房</a>
+                            <a target="_blank" href="">绍兴二手房</a>
+                            <a target="_blank" href="">盐城二手房</a>
+                            <a target="_blank" href="">保定二手房</a>
+                            <a target="_blank" href="">威海二手房</a>
+                            <a target="_blank" href="">杭州二手房</a>
+                            <a target="_blank" href="">南充二手房</a>
+                            <a target="_blank" href="">信阳二手房</a>
+                            <a target="_blank" href="">义乌二手房</a>
+                            <a target="_blank" href="">常德二手房</a>
+                            <a target="_blank" href="">江门二手房</a>
+                            <a target="_blank" href="">南宁二手房</a>
+                            <a target="_blank" href="">丹东二手房</a>
+                            <a target="_blank" href="">遂宁二手房</a>
+                            <a target="_blank" href="">宜宾二手房</a>
+                            <a target="_blank" href="">汉中二手房</a>
+                            <a target="_blank" href="">青岛二手房</a>
+                            <a target="_blank" href="">泰安二手房</a>
+                            <a target="_blank" href="">哈尔滨二手房</a>
+                        </dd>
+                    </div>
+                    <div style="display: none;">
+                        <dd>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033669764675/">忠信丽苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320027984199009/">恒荣格拉斯堡</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320021376470312/">荔苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6317932064140838/">领寓</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320021837900236/">吉莲新村</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320021853633041/">利达花园</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320040836743292/">银泉山庄</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320022258542203/">石竹苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320020854143378/">骏成苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320026417952546/">园林熙郡</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320040531489705/">都市花园自由居</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320034000333452/">江湾西一苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6314895562371197/">翠华新村南区</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6316026852428102/">银厦广场</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/63000000000271/">凤凰海域</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320027675761669/">万科石花66号</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320040812622316/">集美雅苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6315029930855420/">福泰花园</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320027452325088/">恒裕尚都</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6315122108526459/">映晖湾</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320020740898322/">夏宫国际花园</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320039705038050/">世纪名城二期</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320028350243671/">金沙美地</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033692825313/">藤荣尚府</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033685507801/">朝阳小区</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320040335416338/">珠海港海韵</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033666631387/">宁海优家</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320021107933836/">东大新村</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320021877749417/">麒麟花园</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320020854138062/">将军花园</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6316159654841122/">葵竹苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6316045658352825/">新加坡花园一期</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033999281037/">富红苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033997188385/">丽湖名居</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320033994029222/">藤景苑</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6314913127876794/">翠华新村北区</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320021786520011/">莲花山小区</a>
+                            <a target="_blank" href="http://zh.lianjia.com/xiaoqu/6320022209263022/">丽阳苑</a>
+                        </dd>
+                    </div>
+                    <div style="display: none;">
+                        <dd>
+                            <a target="_blank" href="https://bj.fang.lianjia.com/">北京新房</a>
+                            <a target="_blank" href="https://cc.fang.lianjia.com/">长春新房</a>
+                            <a target="_blank" href="https://cd.fang.lianjia.com/">成都新房</a>
+                            <a target="_blank" href="https://cq.fang.lianjia.com/">重庆新房</a>
+                            <a target="_blank" href="https://cs.fang.lianjia.com/">长沙新房</a>
+                            <a target="_blank" href="https://dl.fang.lianjia.com/">大连新房</a>
+                            <a target="_blank" href="https://fs.fang.lianjia.com/">佛山新房</a>
+                            <a target="_blank" href="https://gz.fang.lianjia.com/">广州新房</a>
+                            <a target="_blank" href="https://hf.fang.lianjia.com/">合肥新房</a>
+                            <a target="_blank" href="https://hz.fang.lianjia.com/">杭州新房</a>
+                            <a target="_blank" href="https://jn.fang.lianjia.com/">济南新房</a>
+                            <a target="_blank" href="https://km.fang.lianjia.com/">昆明新房</a>
+                            <a target="_blank" href="https://nj.fang.lianjia.com/">南京新房</a>
+                            <a target="_blank" href="https://qd.fang.lianjia.com/">青岛新房</a>
+                            <a target="_blank" href="https://sh.fang.lianjia.com/">上海新房</a>
+                            <a target="_blank" href="https://sjz.fang.lianjia.com/">石家庄新房</a>
+                            <a target="_blank" href="https://su.fang.lianjia.com/">苏州新房</a>
+                            <a target="_blank" href="https://xm.fang.lianjia.com/">厦门新房</a>
+                            <a target="_blank" href="https://yt.fang.lianjia.com/">烟台新房</a>
+                            <a target="_blank" href="https://zz.fang.lianjia.com/">郑州新房</a>
+                        </dd>
+                    </div>
+                    <div style="display: none;">
+                        <dd>
+                            <a target="_blank" href="https://cd.dyrs.com.cn/">成都家装公司</a>
+                            <a target="_blank" href="http://www.yuegangaofang.com">惠州房价</a>
+                            <a target="_blank" href="http://hz.shangceng.com.cn">杭州尚层装饰</a>
+                            <a target="_blank" href="http://www.jia.com/zhuhai">珠海装修</a>
+                            <a target="_blank" href="http://china.findlaw.cn/zhuhai/">珠海律师</a>
+                            <a target="_blank" href="http://www.lawtime.cn/zhuhai/">珠海律师咨询</a>
+                            <a target="_blank" href="http://tjfcw.51-jia.com/">天津房产</a>
+                            <a target="_blank" href="http://china.findlaw.cn/zhuhai/">珠海律师</a>
+                            <a target="_blank" href="https://hf.diandianzu.com/">合肥写字楼出租</a>
+                            <a target="_blank" href="http://jinan.grfy.net/">个人房源网</a>
+                            <a target="_blank" href="https://zh.1010jz.com/">珠海兼职</a>
+                            <a target="_blank" href="http://zh.ssjzw.com/">珠海兼职网</a>
+                            <a target="_blank" href="https://zh.qd8.com/">珠海分类信息网</a>
+                            <a target="_blank" href="http://zhuhai.huangye88.com/">珠海信息港</a>
+                            <a target="_blank" href="http://www.880518.com/">连云港房产网</a>
+                            <a target="_blank" href="http://jinan.01fy.cn/">济南二手房&nbsp;</a>
+                            <a target="_blank" href="http://zh.ybw315.com/">珠海装修网</a>
+                            <a target="_blank" href="http://zhuhai.qizuang.com/">珠海装修</a>
+                        </dd>
+                    </div>
+                </div>
+            </div>
+            <div class="f_bei">
+                <div>珠海幸福之家房地产投资策划有限公司 &nbsp|&nbsp 网络经营许可证
+                    <a href="">珠房经字(2017)00201号</a><br>
+                    违法和不良信息举报电话：010-86440676 违法和不良信息举报邮箱：jubaoyouxiang@lianjia.com
+                </div>
+                <div>
+                    京公网安备 11010802024019号&nbsp&nbsp网上有害信息举报专区
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

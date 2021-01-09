@@ -1,0 +1,39 @@
+/* .header{
+    position: relative;
+    width: 1263.33px;
+    height: 640px;
+    background: url(../images/bg2.jpg);
+}
+.wrapper{
+    position: absolute;
+    top: 30px;
+    left: 58px;
+    width: 1150px;
+    height: 422px;
+    background-color: rgb(245, 237, 237);
+}
+.logoer{
+    position: absolute;
+    width: 1150px;
+    height: 61px;
+    background-color: pink;
+}
+.logoer .logo {
+    position: absolute;
+    width: 137px;
+    height: 61px;
+    background-color: #fff;
+}
+.logoer .logo a{
+    position: absolute;
+    width: 137px;
+    height: 61px;
+    background: url(../images/logo-removebg2.png);
+}
+.logoer .logo ::after{
+    
+    content:'\e947';
+    font-family: 'icomoon';
+    
+    
+} */
